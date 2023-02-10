@@ -27,7 +27,7 @@ app.UseCors();
 
 app.MapGet("/", async context =>
 {
-    await context.Response.WriteAsync("[Update-001] - Hit the /albums endpoint to retrieve a list of albums!");
+    await context.Response.WriteAsync("[Update-002] - Hit the /albums endpoint to retrieve a list of albums!");
 });
 
 app.MapGet("/albums", () =>
